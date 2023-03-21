@@ -11,7 +11,7 @@ import rasterio as rio
 minX, minY = 353386.3, 4830677.4
 maxX, maxY = 359907.0, 4836581.8
 
-rst = r"C:\Users\nkk\data\bugs\riotiler\data\bouconne.tif"
+rst = r"https://github.com/nkarasiak/bugs_demo/raw/main/rio_tiler/bouconne.tif"
 rio_transform = rio.open(rst).transform
 print(rio_transform)
 # =============================================================================
